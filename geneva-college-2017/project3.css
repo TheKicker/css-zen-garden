@@ -1,0 +1,322 @@
+/*
+
+	NAME: Cavan Lemasters
+    THEME: Mardi Gras CSS
+    DUE: 11/22/2017
+
+	Project 3 Requirements
+
+	- Put your name at the top of this CSS file.
+	- You will modify the project3.css file.  Do NOT make any changes to the html file.  Do not rename the project3.css file.
+	- You will send me only the CSS file AND any images you use.  I will use your CSS file and images 
+		with my copy of the HTML file to make sure you did not change the html file.
+	- Send me the CSS file and images as a zip file.	
+
+	- You must use a different font and different font weights - pick one from Google fonts and embed (update the example below)
+	- You must style the header, footer and include an image in the header.
+	- You must have a multi-column layout
+	- You may look at the examples on csszengarden.com for inspiration and tips on how to do what you want to do (learn
+		from what others have done)
+
+	- Grading - if you meet the requirements above you will get an 85%.  The last 15% will be based on creativity
+		and doing extra stuff with your submission
+*/	
+
+
+
+/* Sample font import for google fonts.  Pick the font of your choice and update the import.
+	Don't forget to then use that font in the body tag. 
+
+	https://fonts.google.com
+
+	Font import MUST be at the top of this file.
+*/
+	/*  Imported Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300i,400,700|Gloria+Hallelujah');
+
+header
+{
+    background: url(MGBannerH.png) no-repeat;   
+    position: absolute;
+    background-position: center;
+    background-position-y: 0px;
+    width: 100%;
+    height: 100%;
+
+}
+
+body 
+{
+    background: url(MGBack1.png);
+}
+
+h1
+{
+    color: yellow;
+    opacity: 0.1;
+    width: 100%;
+    margin: 20px;
+    
+}
+
+h2
+{
+    color: yellow;
+    opacity: 0.1;
+    width: 100%;
+    margin: 20px;
+}
+
+h3
+{
+    font: italic normal 1.4em georgia, sans-serif;
+    color: white;
+    background-color: purple;
+    text-shadow: 0 0 5px black, 0 0 8px black;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 25px; 
+    width: 50%;
+    text-align: left;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+p
+{
+    background-color: white;
+    opacity: .80;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.page-wrapper
+{
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    
+}
+
+/* INTRO class section nests Summary and PreAmble */
+.intro
+{
+    /* Hidden */
+}
+
+#zen-intro
+{
+   margin-top: 0px;
+}
+
+.summary
+{
+    /* Hidden */
+}
+
+#zen-summary
+{
+    background-color: white;
+    opacity: .90;
+    padding: 05px;
+    margin-top: 325px;
+    
+    margin-bottom: 15px;
+    width: 26%;
+    float: left;
+}
+
+.preamble
+{
+    background-color: yellow;
+    opacity: .90;
+    padding: 05px;
+    margin-top: 250px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 70%;
+    float: right;
+}
+/* End of INTRO class nest */
+
+
+/* Main Supporting nests EXP, PAR, BEN, REQ and Footer */
+.main supporting
+{
+    /* Hidden */
+}
+
+#zen-supporting
+{
+    /* Hidden */
+}
+
+.explanation
+{
+    /* Hidden */
+}
+
+#zen-explanation
+{
+    background-color: green;
+    opacity: .90;
+    padding: 05px;
+    margin: 15px;
+    width: 70%;
+    float: right;
+}
+
+.participation
+{
+    /* Hidden */
+}
+
+#zen-participation
+{
+    background-color: yellow;
+    opacity: .90;
+    padding: 05px;
+    margin: 15px;
+    width: 70%;
+    float: right;
+}
+
+.benefits
+{
+
+}
+
+#zen-benefits
+{
+    background-color: green;
+    opacity: .90;
+    padding: 05px;
+    margin: 15px;
+    width: 70%;
+    float: right;
+}
+
+.requirements
+{
+    /* Hidden */
+}
+
+#zen-requirements
+{
+    background-color: yellow;
+    opacity: .90;
+    padding: 05px;
+    margin: 15px;
+    width: 70%;
+    float: right;
+}
+
+footer
+{
+    position: absolute;
+    background-position-x: 0;
+    margin-top: 250px;
+    background-color: purple;
+    opacity: .90;
+    padding: 05px;
+    text-align: center;
+    width: 25%;
+    text-shadow: 0 0 5px black, 0 0 8px black;
+    letter-spacing: 2px;
+    
+    
+    line-height: 2;
+    
+    
+}
+
+footer a:link, footer a:visited 
+{ 
+	color: white;  
+}
+
+footer a:hover
+{
+    font-size: 102%;
+}
+
+/* End of SUPPORTING class Nest*/
+
+/* The SIDEBAR class nests wrapper, design selection, archives, next button and resources */
+.sidebar
+{
+    background-color: white;
+    opacity: .90;
+    width: 25%;
+    padding-top: 10px;
+    float: left;
+    position: absolute;
+    background-position-x: 0;
+    margin-top: 510px;
+
+}
+
+.sidebar ul
+{
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.sidebar li
+{
+    /* Hidden */
+}
+
+.wrapper
+{
+    font-size: 20px;
+}
+
+.design-name
+{
+    /* Hidden */
+}
+
+.design-archives
+{
+    /* Hidden */
+}
+
+.zen-resources
+{
+    /* Hidden */
+}
+
+#zen-resources
+{
+    /* Hidden */
+}
+
+/* End of SIDEBAR class nest */
+
+/* Link Options */
+a:link 
+{ 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: darkblue;
+}
+
+a:visited 
+{ 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: lightblue;
+}
+
+a:hover, a:focus, a:active 
+{ 
+	text-decoration: underline; 
+	color: yellow;
+    font-size: 102%;
+}
